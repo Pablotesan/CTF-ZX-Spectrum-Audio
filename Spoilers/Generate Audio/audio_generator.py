@@ -6,7 +6,7 @@ import scipy.io.wavfile
 # Variables definition:
 # **************************************
 
-add_parity_byte = True                  # Set to True if you want the audio to be compatible with hardware/emulator
+add_parity_byte = True                  # Set to True if you want the hardware/emulator to print the solution when loaded 
 clock_freq = 3500000                    # 3.5 Mhz to mimic zx spectrum
 end_block_bytes = "01111110 00000000"   # End of block bytes, leave it blank will cause out of memory in hardware/emulator
 flag = "<<flag>>"                       # Important, max 10 characters
